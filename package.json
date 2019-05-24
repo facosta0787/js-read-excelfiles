@@ -1,0 +1,22 @@
+{
+  "name": "ramasu-xlsx",
+  "version": "1.0.0",
+  "description": "Application to read xlsx files and store them in a db",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "excel",
+    "xlsx"
+  ],
+  "author": "@facosta0787",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.2.2",
+    "nodemon": "^1.18.10",
+    "xlsx": "^0.14.1"
+  }
+}
